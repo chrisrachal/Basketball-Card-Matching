@@ -25,7 +25,7 @@
 cardsPicked = [] // Clears the array for next choices
   cardNames = [] // Clears the array for next choices
     if(cardsMatched.length === 1) { // Just for when your score is 1
-    score.textContent = cardsMatched.length + " Match" // So the language isnt weird
+    score.textContent = cardsMatched.length + " Match" // So the language is correct
   } else {
     score.textContent = cardsMatched.length + " Matches" // Updates the score
   }
