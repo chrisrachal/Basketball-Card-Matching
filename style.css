@@ -1,0 +1,23 @@
+  body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .cards {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 15vh);
+    justify-content: center; 
+    gap: 10px;
+    width: 66vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+  .cards img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: darkblue;
+}
