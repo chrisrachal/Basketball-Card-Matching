@@ -1,10 +1,10 @@
-# Title of Game
+# Basketball Matching
 
-Explanation of the game that was built and the deployed link will go here.
+Basketball matching is a card matching game where the player must patch 10 pairs of cards.
 
 # HOW TO PLAY
 
-How to play the game goes here
+The player must choose 2 cards that are identical to each other to gain 1 point in their score. After matching all of the cards, the player will win the game.
 
 ## Start Up Screen:
 Images of the start up screen go here 
@@ -16,8 +16,6 @@ Images of the start up screen go here
 2. Open `index.html` in your browser to play or 
 3. Open the directory in your text editor of choice to view or edit the code
 
-Other install instructions will go here
-
 
 # HOW IT WORKS
 How the game works will go here
@@ -25,15 +23,6 @@ Code snippets go here
 
 
 # FUTURE CONSIDERATIONS
+In the future, I would like to add a reset button and a function to initially flip the cards at the start of the game.
 
-Future considerations or stretch goals go here.
 
-
-# PROCESS WORK
-
-## Initial Wireframes:
-Initial Wireframes go here ( images )
-
-## Scratch Work:
-
-Scratch Work goes here
