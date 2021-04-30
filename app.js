@@ -156,15 +156,3 @@ function matches() {
 
   cardDisplay() // Invoke the function for displaying the cards
   })
-
-  // Stash
-  // Shows the cards
-    // function cardDisplay() {
-    //   for (let i = 0; i < playerCards.length; i++) {
-    //     const blanks = document.createElement('image')
-    //     blanks.setAttribute('src', 'images/nba.png')
-    //     blanks.setAttribute('list', i)
-    //     blanks.addEventListener('click', turnOver)
-    //     cardsShow.appendChild(blanks)
-    //   }
-    // }
