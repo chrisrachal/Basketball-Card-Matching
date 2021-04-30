@@ -21,9 +21,35 @@ The player must choose 2 cards that are identical to each other to gain 1 point 
 
 
 # HOW IT WORKS
-How the game works will go here
-Code snippets go here
+``` javascript
 
+cardsPicked = [] // Clears the array for next choices
+  cardNames = [] // Clears the array for next choices
+    if(cardsMatched.length === 1) { // Just for when your score is 1
+    score.textContent = cardsMatched.length + " Match" // So the language isnt weird
+  } else {
+    score.textContent = cardsMatched.length + " Matches" // Updates the score
+  }
+  if  (cardsMatched.length === playerCards.length/2) { // If the matched cards = half the OG array, you win
+    score.textContent = 'You found all the matches!' // Displays win
+  }
+}
+```
+``` javascript
+ // Displays the NBA cards
+    function cardDisplay() {
+      let i = 0;
+      playerCards.forEach(function(player) {
+          console.log(player)
+          const blanks = document.createElement('img'); // Setting the images yet to be turned
+          blanks.setAttribute('src', 'images/nba.png'); // Gives blanks the NBA card
+          blanks.setAttribute('list', i); // Cards position 0-19 in the array
+          blanks.addEventListener('click', turnOver); // Click even for the turnOver function
+          cardsShow.appendChild(blanks); // Places NBA cards into the "cards" class
+          i++; // Runs through all the elements
+      })
+  }
+  ```
 
 # FUTURE CONSIDERATIONS
 In the future, I would like to add a reset button and a function to initially flip the cards at the start of the game.
