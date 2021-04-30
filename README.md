@@ -1,7 +1,7 @@
 # Basketball Card Matching
 
-Basketball Card Matching is a card matching game where the player must patch 10 pairs of cards.
-You can play the game here: https://chrisrachal.github.io/Basketball-Card-Matching/
+- Basketball Card Matching is a card matching game where the player must patch 10 pairs of cards.
+- You can play the game here: https://chrisrachal.github.io/Basketball-Card-Matching/
 # HOW TO PLAY
 - Click one card to turn it over and click one additional card to try and find a match.
 - If you wish to retract your choice of card, click it again to turn it back over.
